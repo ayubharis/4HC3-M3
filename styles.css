@@ -11,8 +11,11 @@
     border: 1px solid #000000;
 }
 
-.class-header {
 
+
+.clickable {
+    color: black;
+    font-weight: bold;
 }
 
 .class-item {

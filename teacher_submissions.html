@@ -3,9 +3,12 @@
 
 <head>
     <link href="https://fonts.googleapis.com/css?family=K2D&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+
 </head>
 
-<body>
+<body onload="checkMarked();">
     <div class="v71_153">
         <div class="v71_154"></div>
         <div class="v71_155"></div>
@@ -34,7 +37,7 @@
         <div class="name"></div>
         <div class="v78_79">
             <div class="v78_80"></div>
-            <a href="teacher_grading.html"class="v78_85">Alfonzo Sylvester</a>
+            <a href="teacher_grading.html"class="v78_85 clickable" id="toChange">Alfonzo Sylvester</a>
             <span class="v78_84">Jane Doe</span>
         </div>
         <span class="v78_81">Cameron Orr</span>
@@ -395,7 +398,7 @@
     }
 
     .v78_85 {
-        width: 127px;
+        width: 200px;
         color: rgba(0, 0, 0, 1);
         position: absolute;
         top: 112px;
